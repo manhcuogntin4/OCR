@@ -1,0 +1,13 @@
+C:/local/boost_1_55_0/lib64-msvc-9.0/libboost_filesystem-vc90-mt-gd-1_55.lib
+C:/local/boost_1_55_0/lib64-msvc-9.0/libboost_filesystem-vc90-mt-1_55.lib
+C:/local/boost_1_55_0
+C:/local/boost_1_55_0/lib64-msvc-9.0
+C:/local/boost_1_55_0/lib64-msvc-9.0
+C:/local/boost_1_55_0/lib64-msvc-9.0/libboost_program_options-vc90-mt-gd-1_55.lib
+C:/local/boost_1_55_0/lib64-msvc-9.0/libboost_program_options-vc90-mt-1_55.lib
+C:/Workspace/opencv/build/x64/vc12/lib
+C:/Workspace/opencv/build/x64/vc12/lib
+C:/Workspace/opencv/build
+C:/Workspace/opencv/build
+C:/Workspace/opencv/build/x64/vc12/lib
+C:/Workspace/opencv/build/x64/vc12/lib
