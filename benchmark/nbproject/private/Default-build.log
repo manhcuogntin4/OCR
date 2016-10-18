@@ -1,0 +1,11 @@
+Scanning dependencies of target extract
+[ 50%] Building CXX object CMakeFiles/extract.dir/extract/main.cpp.o
+/home/cuong_nguyen/Desktop/Workspace/brexia/Octobre/CodeSource/OCR/benchmark/extract/main.cpp: In function ‘int main(int, char**)’:
+/home/cuong_nguyen/Desktop/Workspace/brexia/Octobre/CodeSource/OCR/benchmark/extract/main.cpp:70:20: warning: format not a string literal and no format arguments [-Wformat-security]
+   printf(t1.c_str());
+                    ^
+/home/cuong_nguyen/Desktop/Workspace/brexia/Octobre/CodeSource/OCR/benchmark/extract/main.cpp:74:20: warning: format not a string literal and no format arguments [-Wformat-security]
+   printf(t2.c_str());
+                    ^
+[100%] Linking CXX executable bin/extract
+[100%] Built target extract

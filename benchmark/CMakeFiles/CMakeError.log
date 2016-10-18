@@ -1,0 +1,35 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/cuong_nguyen/Desktop/Workspace/brexia/Octobre/CodeSource/OCR/benchmark/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d91e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d91e0.dir/build.make CMakeFiles/cmTC_d91e0.dir/build
+make[1]: Entering directory '/home/cuong_nguyen/Desktop/Workspace/brexia/Octobre/CodeSource/OCR/benchmark/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d91e0.dir/CheckSymbolExists.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_d91e0.dir/CheckSymbolExists.c.o   -c /home/cuong_nguyen/Desktop/Workspace/brexia/Octobre/CodeSource/OCR/benchmark/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d91e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d91e0.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_d91e0.dir/CheckSymbolExists.c.o  -o cmTC_d91e0 -rdynamic 
+CMakeFiles/cmTC_d91e0.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d91e0.dir/build.make:97: recipe for target 'cmTC_d91e0' failed
+make[1]: *** [cmTC_d91e0] Error 1
+make[1]: Leaving directory '/home/cuong_nguyen/Desktop/Workspace/brexia/Octobre/CodeSource/OCR/benchmark/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d91e0/fast' failed
+make: *** [cmTC_d91e0/fast] Error 2
+
+File /home/cuong_nguyen/Desktop/Workspace/brexia/Octobre/CodeSource/OCR/benchmark/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
