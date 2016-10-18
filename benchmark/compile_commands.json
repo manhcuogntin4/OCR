@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/cuong_nguyen/Desktop/Workspace/brexia/Octobre/CodeSource/OCR/benchmark",
+  "command": "/usr/bin/g++    -I/home/cuong_nguyen/Desktop/Workspace/brexia/Octobre/CodeSource/OCR/benchmark/extract/include -I/usr/local/include/opencv -I/usr/local/include -I/usr/local/include/tesseract -I/usr/include/leptonica   -std=c++11 -g3 -gdwarf-2   -o CMakeFiles/extract.dir/extract/main.cpp.o -c /home/cuong_nguyen/Desktop/Workspace/brexia/Octobre/CodeSource/OCR/benchmark/extract/main.cpp",
+  "file": "/home/cuong_nguyen/Desktop/Workspace/brexia/Octobre/CodeSource/OCR/benchmark/extract/main.cpp"
+}
+]
