@@ -1,0 +1,34 @@
+Boost_DIR-NOTFOUND
+C:/Boost/libx64/libboost_filesystem-vc120-mt-sgd-1_62.lib
+C:/Boost/libx64/libboost_filesystem-vc120-mt-s-1_62.lib
+C:/Boost/include/boost-1_62
+C:/Boost/libx64
+C:/Boost/libx64
+C:/Boost/libx64/libboost_program_options-vc120-mt-sgd-1_62.lib
+C:/Boost/libx64/libboost_program_options-vc120-mt-s-1_62.lib
+C:/Boost/libx64/libboost_system-vc120-mt-sgd-1_62.lib
+C:/Boost/libx64/libboost_system-vc120-mt-s-1_62.lib
+Debug;Release;MinSizeRel;RelWithDebInfo
+/DWIN32 /D_WINDOWS /W3 /GR /EHsc
+/D_DEBUG /MTd /Zi /Ob0 /Od /RTC1
+/MT /O1 /Ob1 /DNDEBUG
+/MT /O2 /Ob2 /DNDEBUG
+/MT /Zi /O2 /Ob1 /DNDEBUG
+kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+/machine:x64
+/debug /INCREMENTAL
+/INCREMENTAL:NO
+/debug /INCREMENTAL
+C:/Program Files/FIAT
+C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin/x86_amd64/link.exe
+/machine:x64
+/debug /INCREMENTAL
+/INCREMENTAL:NO
+/debug /INCREMENTAL
+/machine:x64
+C:/opencv/build/x64/vc12/staticlib
+C:/opencv/build/x64/vc12/staticlib
+C:/opencv/build
+C:/opencv/build
+C:/opencv/build/x64/vc12/staticlib
+C:/opencv/build/x64/vc12/staticlib
